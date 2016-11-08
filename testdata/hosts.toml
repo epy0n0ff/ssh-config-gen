@@ -1,0 +1,8 @@
+[sshconfig]
+User = "hogehoge"
+Port = 22
+IdentityFile = "/Users/hoge/.ssh/id_rsa"
+Hosts = [
+  ["hoge1.example.com","127.0.0.1"],
+  ["hoge2.example.com","127.0.0.2"],
+]
