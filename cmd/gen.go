@@ -50,6 +50,6 @@ func (m *gen) Run() error {
 		fmt.Fprintf(os.Stderr, "load template file failed: %v", err)
 	}
 
-	fmt.Fprintf(os.Stderr, "%s", config)
+	fmt.Fprintf(os.Stdout, "%s", config)
 	return nil
 }
