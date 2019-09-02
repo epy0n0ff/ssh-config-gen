@@ -1,8 +1,0 @@
-package: github.com/epy0n0ff/ssh-config-gen
-license: MIT
-owners:
-- name: epy0n0ff
-  email: epy0n.0ff+github@gmail.com
-import:
-- package: github.com/BurntSushi/toml
-  version: ^0.2.0
